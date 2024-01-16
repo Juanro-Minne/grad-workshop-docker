@@ -37,7 +37,7 @@ services:
       context: ./frontend
       dockerfile: dockerfile
     ports:
-      -"80:80"
+      - "80:80"
     depends_on:
       - backend
 
